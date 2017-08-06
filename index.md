@@ -3,7 +3,7 @@ This is the project page for the CAPES project (in order of priority).
 
 CAPES is an operational-focused service hub for segmented, self-hosted, and offline (if necessary) incident response, intelligence analysis, and/or hunt operations.
 
-<img src=https://github.com/capesstack/capes/blob/master/images/capes.png>
+![capes logo](https://github.com/capesstack/capes/blob/master/images/capes.png)  
 
 ## Services
 1. Rocketchat
