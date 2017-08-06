@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# Cyber Analytics Platform and Examination System (CAPES)
+This is the project page for the CAPES project (in order of priority).
 
-You can use the [editor on GitHub](https://github.com/capesstack/capesstack.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+CAPES is an operational-focused service hub for segmented, self-hosted, and offline (if necessary) incident response, intelligence analysis, and/or hunt operations.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![capes logo](images/capes.png)
 
-### Markdown
+## Services
+1. Rocketchat
+1. Etherpad
+1. GoGS
+1. TheHive
+1. Cortex
+1. Landing Page
+1. MISP
+1. CyberChef
+1. Hippocampe
+1. Mumble
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Roadmap
+1. Get working shell script for all services
+1. Get shell scripts combined into a singular CAPES deploy script
+1. Documentation *
+1. Convert shell script to Ansible
+1. Convert CAPES to Docker
 
-```markdown
-Syntax highlighted code block
+## Done
+* Working shell scripts
+  - RocketChat
+  - Etherpad
+  - GoGS
+  - TheHive
+  - Cortex
+  - CAPES Landing Page
+* CAPES deploy script with Landing Page presenting:
+  - RocketChat
+  - GoGS
+  - Etherpad
+  - TheHive
+  - Cortex
 
-# Header 1
-## Header 2
-### Header 3
+## Note
+\* designates current effort
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/capesstack/capesstack.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Documentation / Installation
+See [docs](docs/README.md)
