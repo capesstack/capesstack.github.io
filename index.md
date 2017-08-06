@@ -1,6 +1,3 @@
-# Cyber Analytics Platform and Examination System (CAPES)
-This is the project page for the CAPES project (in order of priority).
-
 CAPES is an operational-focused service hub for segmented, self-hosted, and offline (if necessary) incident response, intelligence analysis, and/or hunt operations.
 
 ![capes logo](/capes.png)  
