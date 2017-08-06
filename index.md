@@ -24,7 +24,7 @@ Please see below for Build, Operate, Maintain specifics on the different web app
 * [Etherpad](https://github.com/capesstack/capes/blob/master/docs/etherpad)  
 * [GoGS](https://github.com/capesstack/capes/blob/master/docs/gogs)  
 * [Rocketchat](https://github.com/capesstack/capes/blob/master/docs/rocketchat)  
-* [TheHive](https://github.com/capesstack/capes/blob/master/docs/TheHive)  
+* [TheHive](https://github.com/capesstack/capes/blob/master/docs/thehive)  
 * [Cortex](https://github.com/capesstack/capes/blob/master/docs/cortex)  
 
 <!---
