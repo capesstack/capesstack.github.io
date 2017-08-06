@@ -5,6 +5,8 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 
 ![capes logo](/capes.png)  
 
+<img src="{{ site.baseurl }}/capes.png">
+
 ## Services
 1. Rocketchat
 1. Etherpad
