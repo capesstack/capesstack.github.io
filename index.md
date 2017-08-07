@@ -17,21 +17,24 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 
 # Documentation
 Please see below for Build, Operate, Maintain specifics on the different web applications
-* [CAPES Landing Page](https://github.com/capesstack/capes/blob/master/docs/landing_page)  
-* [Etherpad](https://github.com/capesstack/capes/blob/master/docs/etherpad)  
-* [GoGS](https://github.com/capesstack/capes/blob/master/docs/gogs)  
-* [Rocketchat](https://github.com/capesstack/capes/blob/master/docs/rocketchat)  
-* [TheHive](https://github.com/capesstack/capes/blob/master/docs/thehive)  
-* [Cortex](https://github.com/capesstack/capes/blob/master/docs/cortex)  
+* [CAPES Landing Page](https://github.com/capesstack/capes/blob/master/landing_page/build_operate_maintain.md)  
+* [Etherpad](https://github.com/capesstack/capes/blob/master/etherpad/build_operate_maintain.md)  
+* [GoGS](https://github.com/capesstack/capes/blob/master/gogs/build_operate_maintain.md)  
+* [Rocketchat](https://github.com/capesstack/capes/blob/master/rocketchat/build_operate_maintain.md)  
+* [TheHive](https://github.com/capesstack/capes/blob/master/thehive/build_operate_maintain.md)  
+* [Cortex](https://github.com/capesstack/capes/blob/master/cortex/build_operate_maintain.md)  
 
 <!---
-* [CyberChef](https://github.com/capesstack/capes/blob/master/docs/CyberChef)  
-* [MISP](https://github.com/capesstack/capes/blob/master/docs/misp)  
-* [Mumble](https://github.com/capesstack/capes/blob/master/docs/mumble)  
+* [CyberChef](https://github.com/capesstack/capes/blob/master/cyberchef/build_operate_maintain.md)  
+* [MISP](https://github.com/capesstack/capes/blob/master/misp/build_operate_maintain.md)  
+* [Mumble](https://github.com/capesstack/capes/blob/master/mumble/build_operate_maintain.md)  
 -->
 
+## Quick Start
+Ready to just get started? Just jump to the [quick start](#get-capes).
+
 ## Requirements
-There has not been extensive testing, but all of these services have run without issue on a single virtual machine with approximately 20 users and no issue for a week. That said, your mileage may vary.
+There has not been extensive testing, but all of these services have run without issue on a single virtual machine with approximately 20 users and no issue for a week (I'm sure it would have kept running, 1 week was just when we stopped our testing). That said, your mileage may vary.
 
 While the OS version isn't a hard requirement, all testing and development work has been done with `CentOS 7.3.1611 (Core)`.
 
@@ -57,12 +60,12 @@ While there are a lot of projects that are developed using Ubuntu (many of these
     - AppArmor uses pre-scripted rules to define security controls (for example, I know that a text editor shouldn't talk to the Internet because someone told me it shouldn't)
 
 #### Implementation
-While the `iptables` service is running on CAPES and the only ports listening have services attached to them, you should still consider using a Web Application Firewall (WAF), an Intrusion Detection System (IDS) or a Network Security Monitor (like [ROCKNSM](http://rocknsm.io) - which has an IDS integrated on top of a litany of other goodies) to ensure that your CAPES stack isn't being targeted.
+While the `iptables` service is running on CAPES and the only ports listening have services attached to them, you should still consider using a Web Application Firewall (WAF), an Intrusion Detection System (IDS), and/or a Network Security Monitor (like [ROCKNSM](http://rocknsm.io) which has an IDS integrated on top of a litany of other goodies) to monitor/defend your stack.
 
-If possible, CAPES, just like a passive NSM, should **not** be on the contested network. This will prevent it from being targeted by aggressors. On net implementations (re: enhanced web application security) are a roadmap item.
+If possible when deploying CAPES, just like a passive NSM, should **not** be on, or accessible from, the contested network. This will prevent it from being targeted by aggressors.
 
 #### Securing the Landing Page
-We are going to implement a login for the CAPES landing page. Right now, CAPES should not be deployed where an aggressor can get at it...however, that's not really an excuse. We're working on it. **All services have authentication requirements.**
+We are going to implement a login (and likely Common Access Card (CAC) auth) for the CAPES landing page. Right now, CAPES should not be deployed where an aggressor can get at it...however, that's not really an excuse. We're working on it. **All services have authentication requirements.**
 
 Additionally, SSL. We are having discussions around self-signed certificates vs. 3rd party (Let's Encrypt, etc.); but there are some architecture caveats to consider here. Again, it's a roadmap item.
 
@@ -150,4 +153,4 @@ This will start the automated build of:
 ## Get Started
 After the CAPES installation, you should be able to browse to `http://capes_system` (or `http://capes_IP` if you don't have DNS set up) get get to the CAPES landing page and start setting up services.
 
-I **strongly** recommend that you look at the `Build, Operate, Maintain` guides for these services before you get going. A few of the services launch a configuration pipeline that is hard to restart if you don't complete it the first time.
+I **strongly** recommend that you look at the `Build, Operate, Maintain` guides for these services before you get going. A few of the services launch a configuration pipeline that is hard to restart if you don't complete it the first time (I'm looking at you TheHive and GoGS).
