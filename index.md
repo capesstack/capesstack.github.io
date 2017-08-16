@@ -46,12 +46,8 @@ There is an inherent risk to deploying web applications to the Internet or to a 
 ### Secure by Design
 #### Operating System
 While there are a lot of projects that are developed using Ubuntu (many of these service creators still follow that path), CAPES chose to use CentOS because of a few different reasons:  
-1. CentOS is the open source version of Red Hat Enterprise Linux (RHEL)
-  1. Many enterprises use RHEL as their Linux distribution of choice because you can purchase support for it
-  1. We wanted to use a distribution that could easily be ported from an open source OS to the supported OS (RHEL)
-1. CentOS uses Security Enhanced Linux (SELinux) instead of AppArmor
-- SELinux uses context to define security controls (for example, I know a text editor shouldn't talk to the Internet because it's a text editor, not a browser)
-- AppArmor uses pre-scripted rules to define security controls (for example, I know that a text editor shouldn't talk to the Internet because someone told me it shouldn't)
+1. CentOS is the open source version of Red Hat Enterprise Linux (RHEL) - many enterprises use RHEL as their Linux distribution of choice because you can purchase support for it and we wanted to use a distribution that could easily be ported from an open source OS to the supported OS (RHEL)
+1. CentOS uses Security Enhanced Linux (SELinux) instead of AppArmor - SELinux uses context to define security controls (for example, I know a text editor shouldn't talk to the Internet because it's a text editor, not a browser) and AppArmor uses pre-scripted rules to define security controls (for example, I know that a text editor shouldn't talk to the Internet because someone told me it shouldn't)
 
 #### Implementation
 While the `iptables` service is running on CAPES and the only ports listening have services attached to them, you should still consider using a Web Application Firewall (WAF), an Intrusion Detection System (IDS), and/or a Network Security Monitor (like [ROCKNSM](http://rocknsm.io) which has an IDS integrated on top of a litany of other goodies) to monitor/defend your stack.
