@@ -2,7 +2,7 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 
 ![capes logo](/capes.png)  
 
-## Services
+# Services in CAPES
 1. Rocketchat
 1. Etherpad
 1. GoGS
@@ -60,7 +60,7 @@ Generally, the CAPES ecosystem is meant to run as a whole, so the preferred usag
 That said, there is a deploy script for each of the services that you should be able to run individually if your use case requires that.
 
 ### Build your OS
-Please see the [OS build guide](https://github.com/capesstack/capes/tree/master/docs#build-your-os) on the CAPES docs page. If you don't need this guide, skip on down to [Get CAPES](#get-capes).
+Please see the [OS build guide](https://github.com/capesstack/capes/tree/master/docs#build-your-os) on the CAPES docs page. 
 
 ## Get CAPES
 Finally, here we go.
