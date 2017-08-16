@@ -47,8 +47,8 @@ There is an inherent risk to deploying web applications to the Internet or to a 
 #### Operating System
 While there are a lot of projects that are developed using Ubuntu (many of these service creators still follow that path), CAPES chose to use CentOS because of a few different reasons:  
 1. CentOS is the open source version of Red Hat Enterprise Linux (RHEL)
-  Many enterprises use RHEL as their Linux distribution of choice because you can purchase support for it
-  We wanted to use a distribution that could easily be ported from an open source OS to the supported OS (RHEL)
+  1. Many enterprises use RHEL as their Linux distribution of choice because you can purchase support for it
+  1. We wanted to use a distribution that could easily be ported from an open source OS to the supported OS (RHEL)
 1. CentOS uses Security Enhanced Linux (SELinux) instead of AppArmor
 - SELinux uses context to define security controls (for example, I know a text editor shouldn't talk to the Internet because it's a text editor, not a browser)
 - AppArmor uses pre-scripted rules to define security controls (for example, I know that a text editor shouldn't talk to the Internet because someone told me it shouldn't)
