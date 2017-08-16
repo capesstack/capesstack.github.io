@@ -50,7 +50,7 @@ While there are a lot of projects that are developed using Ubuntu (many of these
 1. CentOS uses Security Enhanced Linux (SELinux) instead of AppArmor
 
 #### Implementation
-While the `iptables` service is running on CAPES and the only ports listening have services attached to them, you should still consider using a Web Application Firewall (WAF), an Intrusion Detection System (IDS), and/or a Network Security Monitor (like [ROCKNSM](http://rocknsm.io) which has an IDS integrated on top of a litany of other goodies) to monitor/defend your stack.
+While the `firewalld` service is running on CAPES and the only ports listening have services attached to them, you should still consider using a Web Application Firewall (WAF), an Intrusion Detection System (IDS), and/or a Network Security Monitor (like [ROCKNSM](http://rocknsm.io) which has an IDS integrated on top of a litany of other goodies) to monitor/defend your stack.
 
 If possible when deploying CAPES, just like a passive NSM, should **not** be on, or accessible from, the contested network. This will prevent it from being targeted by aggressors.
 
@@ -60,7 +60,7 @@ Generally, the CAPES ecosystem is meant to run as a whole, so the preferred usag
 That said, there is a deploy script for each of the services that you should be able to run individually if your use case requires that.
 
 ### Build your OS
-Please see the [OS build guide](https://github.com/capesstack/capes/tree/master/docs#build-your-os) on the CAPES docs page. 
+Please see the [OS build guide](https://github.com/capesstack/capes/tree/master/docs#build-your-os) on the CAPES docs page.
 
 ## Get CAPES
 Finally, here we go.
