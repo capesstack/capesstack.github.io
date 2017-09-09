@@ -6,6 +6,7 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 1. Rocketchat
 1. Etherpad
 1. GoGS
+1. CyberChef
 1. TheHive
 1. Cortex (enrichment plugin for TheHive)
 
@@ -17,10 +18,9 @@ Please see below for Build, Operate, Maintain specifics on the different web app
 * [Rocketchat](https://github.com/capesstack/capes/blob/master/rocketchat/build_operate_maintain.md)  
 * [TheHive](https://github.com/capesstack/capes/blob/master/thehive/build_operate_maintain.md)  
 * [Cortex](https://github.com/capesstack/capes/blob/master/cortex/build_operate_maintain.md)  
+* [CyberChef](https://github.com/capesstack/capes/blob/master/cyberchef/build_operate_maintain.md)
 
 <!---
-* [CyberChef](https://github.com/capesstack/capes/blob/master/cyberchef/build_operate_maintain.md)  
-* [MISP](https://github.com/capesstack/capes/blob/master/misp/build_operate_maintain.md)  
 * [Mumble](https://github.com/capesstack/capes/blob/master/mumble/build_operate_maintain.md)  
 -->
 
@@ -72,16 +72,17 @@ sudo sh deploy_capes.sh
 ```
 This will start the automated build of:
 * Configure NTP (likely already done, but in the event you skipped the [Build your OS](https://github.com/capesstack/capes/tree/master/docs#build-your-os) steps)
-* Install Rocketchat
-* Install GoGS
-* Install Etherpad
-* Install TheHive
-* Install Cortex
-* Install Nginx
-* Install the CAPES landing page
-* Secure the MySQL installation
-* Make firewall changes
-* Set everything to autostart
+* Install Rocketchat  
+* Install GoGS  
+* Install Etherpad  
+* Install TheHive  
+* Install Cortex  
+* Install Nginx  
+* Install CyberChef    
+* Install the CAPES landing page  
+* Secure the MySQL installation  
+* Make firewall changes  
+* Set everything to autostart  
 
 ## Get Started
 After the CAPES installation, you should be able to browse to `http://your_capes_system` (or `http://your_capes_IP` if you don't have DNS set up) get get to the CAPES landing page and start setting up services.
