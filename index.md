@@ -30,7 +30,7 @@ Ready to just get started? Just jump to the [quick start](#get-capes).
 ## Requirements
 There has not been extensive testing, but all of these services have run without issue on a single virtual machine with approximately 20 users and no issue for a week (I'm sure it would have kept running, 1 week was just when we stopped our testing). That said, your mileage may vary.
 
-While the OS version isn't a hard requirement, all testing and development work has been done with `CentOS 7.3.1611 (Core)`.
+**While the OS version isn't a hard requirement, all testing and development work has been done with `CentOS 7.4.1708 (Core)`.**
 
 | Component | Number |
 | - | - |
@@ -88,3 +88,6 @@ This will start the automated build of:
 After the CAPES installation, you should be able to browse to `http://your_capes_system` (or `http://your_capes_IP` if you don't have DNS set up) get get to the CAPES landing page and start setting up services.
 
 I **strongly** recommend that you look at the [Build, Operate, Maintain](https://github.com/capesstack/capes/tree/master/docs#documentation) guides for these services before you get going. A few of the services launch a configuration pipeline that is hard to restart if you don't complete it the first time (I'm looking at you TheHive and GoGS).
+
+## Troubleshooting
+Please see the [documentation](https://github.com/capesstack/capes/tree/master/docs#documentation) or feel free to open a [GitHub Issue](https://github.com/capesstack/capes/issues).
