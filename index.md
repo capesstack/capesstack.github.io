@@ -73,6 +73,7 @@ This will start the automated build of:
 * Install Rocketchat  
 * Install GoGS  
 * Install Etherpad  
+* Install Mumble  
 * Install TheHive  
 * Install Cortex  
 * Install Nginx  
