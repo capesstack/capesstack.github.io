@@ -7,6 +7,7 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 1. Etherpad
 1. GoGS
 1. CyberChef
+1. Mumble (VoIP)
 1. TheHive
 1. Cortex (enrichment plugin for TheHive)
 
