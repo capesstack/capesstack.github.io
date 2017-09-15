@@ -19,10 +19,7 @@ Please see below for Build, Operate, Maintain specifics on the different web app
 * [TheHive](https://github.com/capesstack/capes/blob/master/thehive/build_operate_maintain.md)  
 * [Cortex](https://github.com/capesstack/capes/blob/master/cortex/build_operate_maintain.md)  
 * [CyberChef](https://github.com/capesstack/capes/blob/master/cyberchef/build_operate_maintain.md)
-
-<!---
 * [Mumble](https://github.com/capesstack/capes/blob/master/mumble/build_operate_maintain.md)  
--->
 
 ## Quick Start
 Ready to just get started? Just jump to the [quick start](#get-capes).
