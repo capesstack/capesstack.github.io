@@ -1,6 +1,6 @@
 CAPES is an operational-focused service hub for segmented, self-hosted, and offline (if necessary) incident response, intelligence analysis, and hunt operations.
 
-![capes logo](/capes.png)  
+![capes logo](/capes_logo.png)
 
 # Services in CAPES
 1. Rocketchat
@@ -10,6 +10,8 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 1. Mumble (VoIP)
 1. TheHive
 1. Cortex (enrichment plugin for TheHive)
+
+![capes logo](/capes_arch.png)
 
 # Documentation
 Please see below for Build, Operate, Maintain specifics on the different web applications
