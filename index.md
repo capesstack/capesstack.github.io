@@ -1,6 +1,6 @@
-CAPES is an operational-focused service hub for segmented, self-hosted, and offline (if necessary) incident response, intelligence analysis, and hunt operations.
-
 ![capes logo](/capes_logo.png)
+
+CAPES is an operational-focused service hub for segmented, self-hosted, and offline (if necessary) incident response, intelligence analysis, and hunt operations.
 
 # Services in CAPES
 1. Rocketchat
