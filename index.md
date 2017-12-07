@@ -5,7 +5,7 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 # Services in CAPES
 1. Rocketchat
 1. Etherpad
-1. GoGS
+1. Gitea
 1. CyberChef
 1. Mumble (VoIP)
 1. TheHive
@@ -17,7 +17,7 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 Please see below for Build, Operate, Maintain specifics on the different web applications
 * [CAPES Landing Page](https://github.com/capesstack/capes/blob/master/landing_page/build_operate_maintain.md)  
 * [Etherpad](https://github.com/capesstack/capes/blob/master/etherpad/build_operate_maintain.md)  
-* [GoGS](https://github.com/capesstack/capes/blob/master/gogs/build_operate_maintain.md)  
+* [Gitea](https://github.com/capesstack/capes/blob/master/gitea/build_operate_maintain.md)  
 * [Rocketchat](https://github.com/capesstack/capes/blob/master/rocketchat/build_operate_maintain.md)  
 * [TheHive](https://github.com/capesstack/capes/blob/master/thehive/build_operate_maintain.md)  
 * [Cortex](https://github.com/capesstack/capes/blob/master/cortex/build_operate_maintain.md)  
@@ -73,7 +73,7 @@ sudo sh deploy_capes.sh
 This will start the automated build of:
 * Configure NTP (likely already done, but in the event you skipped the [Build your OS](https://github.com/capesstack/capes/tree/master/docs#build-your-os) steps)
 * Install Rocketchat  
-* Install GoGS  
+* Install Gitea  
 * Install Etherpad  
 * Install Mumble  
 * Install TheHive  
@@ -88,7 +88,7 @@ This will start the automated build of:
 ## Get Started
 After the CAPES installation, you should be able to browse to `http://your_capes_system` (or `http://your_capes_IP` if you don't have DNS set up) get get to the CAPES landing page and start setting up services.
 
-I **strongly** recommend that you look at the [Build, Operate, Maintain](https://github.com/capesstack/capes/tree/master/docs#documentation) guides for these services before you get going. A few of the services launch a configuration pipeline that is hard to restart if you don't complete it the first time (I'm looking at you TheHive and GoGS).
+I **strongly** recommend that you look at the [Build, Operate, Maintain](https://github.com/capesstack/capes/tree/master/docs#documentation) guides for these services before you get going. A few of the services launch a configuration pipeline that is hard to restart if you don't complete it the first time (I'm looking at you TheHive and Gitea).
 
 ## Troubleshooting
 Please see the [documentation](https://github.com/capesstack/capes/tree/master/docs#documentation) or feel free to open a [GitHub Issue](https://github.com/capesstack/capes/issues).
