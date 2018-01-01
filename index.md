@@ -75,4 +75,4 @@ I **strongly** recommend that you look at the [Build, Operate, Maintain](https:/
 Please see the [documentation](https://github.com/capesstack/capes/tree/master/docs#documentation) or feel free to open a [GitHub Issue](https://github.com/capesstack/capes/issues).
 
 # Training & Professional Services
-While CAPES is a FOSS project and we'll attempt to support deployment issues via the GitHub page, if you need training or PS, please feel free to check out some options over at [Perched](http://perched.io)
+While CAPES is a FOSS project and we'll attempt to support deployment questions via the GitHub Issues page, if you need training or PS, please feel free to check out some options over at [Perched](http://perched.io)
