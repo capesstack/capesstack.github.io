@@ -36,6 +36,7 @@ There has not been extensive testing with these requirements, but all of these s
 
 | Component | Number |
 | - | - |
+| OS | CentOS 7.4.1708 (Core) |
 | Cores | 4 |
 | RAM | 8 GB |
 | Hard Disk | 20 GB |
@@ -43,8 +44,8 @@ There has not been extensive testing with these requirements, but all of these s
 # Get CAPES
 Finally, here we go.
 ```
+sudo yum install git -y
 git clone https://github.com/capesstack/capes.git
-# if you're feeling adventurous git clone -b devel https://github.com/capesstack/capes.git
 cd capes
 sudo sh deploy_capes.sh
 ```
@@ -79,7 +80,7 @@ Want to join the discussion? Send a request to join our Slack Workspace to conta
 # Swag
 Interested in some CAPES swag? Send me a email to contact [at] capesstack[.]io and I'll send you some laptop decals.
 
-If you're interested in CAPES t-shirts, we parter with TeeSpring for those. Feel free to check out [our storefront](https://teespring.com/stores/capesstack). We don't make a penny on these - 100% of the profits go to the National Alliance to End Homelessness. 
+If you're interested in CAPES t-shirts, we parter with TeeSpring for those. Feel free to check out [our storefront](https://teespring.com/stores/capesstack). We don't make a penny on these - 100% of the profits go to the National Alliance to End Homelessness.
 
 # Training & Professional Services
 While CAPES is a FOSS project and we'll attempt to support deployment questions via the GitHub Issues page, if you need training or PS, please feel free to check out some options over at [Perched](http://perched.io)
