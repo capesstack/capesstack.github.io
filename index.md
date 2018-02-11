@@ -6,12 +6,12 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 1. Rocketchat (Chat)
 1. Etherpad (Collaboration-style documentation)
 1. Gitea (Version controlled documentation)
-1. CyberChef (Data analysis)
-1. Mumble (VoIP)
 1. TheHive (Incident Response)
 1. Cortex (Indicator enrichment)
-1. Kibana (Data visualization)
+1. CyberChef (Data analysis)
+1. Mumble (VoIP)
 1. Beats - Metric, Heart, and File (Performance and health metrics)
+1. Kibana (Data visualization)
 
 ![capes logo](/capes_arch.png)
 
@@ -19,15 +19,15 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 Please see below for Build, Operate, Maintain specifics on the different web applications
 * [Build Your OS](https://github.com/capesstack/capes/tree/master/docs#build-your-os)  
 * [CAPES Landing Page](https://github.com/capesstack/capes/blob/master/landing_page/build_operate_maintain.md)  
+* [Rocketchat](https://github.com/capesstack/capes/blob/master/rocketchat/build_operate_maintain.md)  
 * [Etherpad](https://github.com/capesstack/capes/blob/master/etherpad/build_operate_maintain.md)  
 * [Gitea](https://github.com/capesstack/capes/blob/master/gitea/build_operate_maintain.md)  
-* [Rocketchat](https://github.com/capesstack/capes/blob/master/rocketchat/build_operate_maintain.md)  
 * [TheHive](https://github.com/capesstack/capes/blob/master/thehive/build_operate_maintain.md)  
 * [Cortex](https://github.com/capesstack/capes/blob/master/cortex/build_operate_maintain.md)  
 * [CyberChef](https://github.com/capesstack/capes/blob/master/cyberchef/build_operate_maintain.md)
 * [Mumble](https://github.com/capesstack/capes/blob/master/mumble/build_operate_maintain.md)  
 * [Beats](https://github.com/capesstack/capes/blob/master/beats/build_operate_maintain.md)
-* [Kibaba](https://github.com/capesstack/capes/blob/master/kibana/build_operate_maintain.md)
+* [Kibana](https://github.com/capesstack/capes/blob/master/kibana/build_operate_maintain.md)
 
 # Requirements
 There has not been extensive testing with these requirements, but all of these services have run without issue on a single virtual machine with approximately 20 users and no issue for a week (I'm sure it would have kept running, 1 week was just when we stopped our testing). That said, your mileage may vary.
