@@ -3,7 +3,7 @@
 CAPES is an operational-focused service hub for segmented, self-hosted, and offline (if necessary) incident response, intelligence analysis, and hunt operations.
 
 # Services in CAPES
-1. Rocketchat (Chat)
+1. Mattermost (Chat)
 1. Etherpad (Collaboration-style documentation)
 1. Gitea (Version controlled documentation)
 1. TheHive (Incident Response)
@@ -19,7 +19,7 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 Please see below for Build, Operate, Maintain specifics on the different web applications
 * [Build Your OS](https://github.com/capesstack/capes/tree/master/docs#build-your-os)  
 * [CAPES Landing Page](https://github.com/capesstack/capes/blob/master/landing_page/build_operate_maintain.md)  
-* [Rocketchat](https://github.com/capesstack/capes/blob/master/rocketchat/build_operate_maintain.md)  
+* [Mattermost](https://github.com/capesstack/capes/blob/master/mattermost/build_operate_maintain.md)  
 * [Etherpad](https://github.com/capesstack/capes/blob/master/etherpad/build_operate_maintain.md)  
 * [Gitea](https://github.com/capesstack/capes/blob/master/gitea/build_operate_maintain.md)  
 * [TheHive](https://github.com/capesstack/capes/blob/master/thehive/build_operate_maintain.md)  
@@ -55,7 +55,7 @@ This will start the automated build of:
 * Install Filebeat
 * Install Metricbeat
 * Install Heartbeat
-* Install Rocketchat  
+* Install Mattermost  
 * Install Gitea  
 * Install Etherpad  
 * Install Mumble  
