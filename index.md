@@ -4,7 +4,7 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 
 # Services in CAPES
 1. Mattermost (Chat)
-1. Etherpad (Collaboration-style documentation)
+1. HackMD (Collaboration-style documentation)
 1. Gitea (Version controlled documentation)
 1. TheHive (Incident Response)
 1. Cortex (Indicator enrichment)
@@ -20,7 +20,7 @@ Please see below for Build, Operate, Maintain specifics on the different web app
 * [Build Your OS](https://github.com/capesstack/capes/tree/master/docs#build-your-os)  
 * [CAPES Landing Page](https://github.com/capesstack/capes/blob/master/landing_page/build_operate_maintain.md)  
 * [Mattermost](https://github.com/capesstack/capes/blob/master/mattermost/build_operate_maintain.md)  
-* [Etherpad](https://github.com/capesstack/capes/blob/master/etherpad/build_operate_maintain.md)  
+* [HackMD](https://github.com/capesstack/capes/blob/master/hackmd/build_operate_maintain.md)  
 * [Gitea](https://github.com/capesstack/capes/blob/master/gitea/build_operate_maintain.md)  
 * [TheHive](https://github.com/capesstack/capes/blob/master/thehive/build_operate_maintain.md)  
 * [Cortex](https://github.com/capesstack/capes/blob/master/cortex/build_operate_maintain.md)  
@@ -57,7 +57,7 @@ This will start the automated build of:
 * Install Heartbeat
 * Install Mattermost  
 * Install Gitea  
-* Install Etherpad  
+* Install HackMD  
 * Install Mumble  
 * Install TheHive  
 * Install Cortex  
@@ -70,7 +70,7 @@ This will start the automated build of:
 # Get Started
 After the CAPES installation, you should be able to browse to `http://your_capes_system` (or `http://your_capes_IP` if you don't have DNS set up) get get to the CAPES landing page and start setting up services.
 
-I **strongly** recommend that you look at the [Build, Operate, Maintain](https://github.com/capesstack/capes/tree/master/docs#documentation) guides for these services before you get going. A few of the services launch a configuration pipeline that is hard to restart if you don't complete it the first time (I'm looking at you TheHive and Gitea).
+I **strongly** recommend that you look at the [Build, Operate, Maintain](https://github.com/capesstack/capes/tree/master/docs#documentation) guides for these services before you get going. A few of the services launch a configuration pipeline that is obnoxious to restart if you don't complete it the first time (I'm looking at you TheHive and Gitea).
 
 # Troubleshooting
 Please see the [documentation](https://github.com/capesstack/capes/tree/master/docs#documentation) or feel free to open a [GitHub Issue](https://github.com/capesstack/capes/issues).
