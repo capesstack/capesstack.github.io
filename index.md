@@ -62,7 +62,7 @@ This will start the automated build of:
   * TheHive  
   * Nginx  
   * CyberChef    
-* Configure the CAPES landing page  
+  * Portainer  
 
 # Get Started
 After the CAPES installation, you should be able to browse to `http://your_capes_system` (or `http://your_capes_IP` if you don't have DNS set up) get get to the CAPES landing page and start setting up services by following the [post installation steps](https://github.com/capesstack/capes/tree/master/docs#post-installation).
