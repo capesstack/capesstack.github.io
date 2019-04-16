@@ -11,6 +11,7 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 1. Mumble (VoIP)
 1. Beats - Metric, Heart, and File (Performance and health metrics)
 1. Kibana (Data visualization)
+1. Portainer (Container management)
 
 ![capes logo](/capes_arch.png)
 
@@ -26,6 +27,7 @@ Please see below for Build, Operate, Maintain specifics on the different web app
 * [Mumble](https://github.com/capesstack/capes/blob/master/mumble/build_operate_maintain.md)  
 * [Beats](https://github.com/capesstack/capes/blob/master/beats/build_operate_maintain.md)
 * [Kibana](https://github.com/capesstack/capes/blob/master/kibana/build_operate_maintain.md)
+* [Portainer](https://github.com/capesstack/capes/blob/master/portainer/build_operate_maintain.md)
 
 # Requirements
 There has not been extensive testing with these requirements, but all of these services have run without issue on a single virtual machine with approximately 20 users and no issue for a week (I'm sure it would have kept running, 1 week was just when we stopped our testing). That said, your mileage may vary.
