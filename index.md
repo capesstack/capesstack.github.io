@@ -24,7 +24,6 @@ Please see below for Build, Operate, Maintain specifics on the different web app
 * [TheHive](https://github.com/capesstack/capes-docs/tree/master/thehive)  
 * [CyberChef](https://github.com/capesstack/capes-docs/tree/master/cyberchef)  
 * [Mumble](https://github.com/capesstack/capes-docs/tree/master/mumble)    
-* [Beats](https://github.com/capesstack/capes-docs/tree/master/beats)  
 * [Kibana](https://github.com/capesstack/capes-docs/tree/master/kibana)    
 * [Portainer](https://github.com/capesstack/capes-docs/tree/master/portainer)  
 
