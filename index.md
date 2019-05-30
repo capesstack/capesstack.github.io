@@ -7,6 +7,7 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 1. Etherpad (Collaboration-style documentation)
 1. Gitea (Version controlled documentation)
 1. TheHive (Incident Response)
+1. Draw.io (Diagramming)
 1. CyberChef (Data analysis)
 1. Mumble (VoIP)
 1. Beats - Metric, Heart, and File (Performance and health metrics)
@@ -48,6 +49,7 @@ This will start the automated build of:
   * Heartbeat
   * Etherpad
   * Gitea  
+  * Draw.io
   * Rocketchat
   * Mumble  
   * TheHive  
