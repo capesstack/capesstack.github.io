@@ -10,7 +10,7 @@ CAPES is an operational-focused service hub for segmented, self-hosted, and offl
 1. Draw.io (Diagramming)
 1. CyberChef (Data analysis)
 1. Mumble (VoIP)
-1. Beats - Metric, Heart, Packet, and Audit (security auditing, network flows, and performance and health metrics)
+1. Beats (security auditing, network flows, and performance and health metrics)
 1. Kibana (Data visualization)
 1. Portainer (Container management)
 
@@ -48,7 +48,7 @@ This will start the automated build of:
   * Kibana
   * Heartbeat
   * Auditbeat
-  * Packetb eat
+  * Packetbeat
   * Metricbeat
   * Etherpad
   * Gitea  
