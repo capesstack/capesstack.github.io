@@ -66,7 +66,7 @@ After the CAPES installation, you should be able to browse to `http://your_capes
 Although most of these services are fairly intuitive, I **strongly** recommend that you look at the [Build, Operate, Maintain](https://github.com/capesstack/capes-docs/blob/master/README.md) guides for these services before you get going too far. A few of the services launch a configuration pipeline that is obnoxious to restart if you don't complete it the first time (I'm looking at you TheHive and Gitea).
 
 # Troubleshooting
-Please see the [documentation](https://github.com/capesstack/capes/tree/master/docs#documentation) or feel free to open a [GitHub Issue](https://github.com/capesstack/capes/issues).
+Please see the [documentation](https://github.com/capesstack/capes-docker/blob/master/README.md) or feel free to open a [GitHub Issue](https://github.com/capesstack/capes/issues).
 
 Want to join the discussion? Send a request to join our Slack Workspace to contact [at] capesstack[.]io
 
