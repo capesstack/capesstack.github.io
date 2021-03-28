@@ -31,7 +31,7 @@ Please see below for Build, Operate, Maintain specifics on the different web app
 # Requirements
 There has not been extensive testing with these requirements, but all of these services have run without issue on a single virtual machine with approximately 20 users and no issue for a week (I'm sure it would have kept running, 1 week was just when we stopped our testing). That said, your mileage may vary.
 
-**While the OS version isn't a hard requirement, all testing and development work has been done with `CentOS 7.6 (Core)`.**
+**While the OS version isn't a hard requirement, all testing and development work has been done with `CentOS 7.9-2009 (Core)`.**
 
 # Get CAPES
 Finally, here we go.
